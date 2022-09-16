@@ -13,6 +13,7 @@ header{
     text-align: center;
     align-items: center;
     padding: 25px;
+    border-radius: 10px;
 }
 
 main{
@@ -23,8 +24,11 @@ footer{
     background-color: blue;
     color: white;
     text-align: center;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 #datediv{
     color: yellow;
+    padding-top: 10px;
 }
