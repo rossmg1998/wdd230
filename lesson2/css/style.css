@@ -24,6 +24,8 @@ h3 {
 p {
     font-family: 'Oswald', sans-serif;
     padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
 }
 
 /* Small View */
