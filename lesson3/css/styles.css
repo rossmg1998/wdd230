@@ -1,0 +1,41 @@
+/* General View */
+/* All */
+body {
+    padding: 50px;
+}
+
+header {
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+/* Index.html */
+
+/* Target-Audience.html */
+
+/* Color-Scheme.html */
+
+/* Typography.html */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+/* Large View */
+@media screen and (min-width: 960px) {
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    }
