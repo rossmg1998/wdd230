@@ -13,7 +13,6 @@ header {
 
 nav {
     background-color: #808c92;
-    padding: 20px;
 }
 
 a {
@@ -21,11 +20,12 @@ a {
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
     color: black;
+    padding: 20px;
 }
 
 a:hover {
     background-color: #29aed6;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
@@ -46,6 +46,8 @@ h3 {
 p, ul, img {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Index.html */
