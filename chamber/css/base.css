@@ -1,0 +1,125 @@
+body {
+    background-color: #c27364;
+}
+
+header {
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header #ceiling{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+header #floor {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    background-color:#808c92;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+footer{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 1em;
+}
+
+footer #top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    border-bottom-style: solid;
+    border-color: #808c92;
+}
+
+#datediv {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+span {
+    margin-right: 10px;
+}
+
+header, footer, nav {
+    background-color: #244964;
+    color: black;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    color: #808c92;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+nav ul li a img {
+    max-width: 50px;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.5)
+}
+
+nav ul li.active a {
+    background-color: darkgray;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #808c92;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+main {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section {
+    margin: 0.5rem;
+	background-color: #29aed6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
