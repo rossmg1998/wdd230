@@ -40,6 +40,7 @@ footer #top {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
     padding: 1em;
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
@@ -54,13 +55,17 @@ footer #top {
     padding: 15px;
 }
 
-span {
+#footeryear {
     margin-right: 10px;
 }
 
 header, footer, nav {
     background-color: #244964;
-    color: black;
+    color: white;
+}
+
+header a, footer a {
+    color: white;
 }
 
 nav button {
@@ -88,7 +93,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: black;
+    color: white;
     border-top: 1px solid rgba(0,0,0,0.5)
 }
 
@@ -119,7 +124,28 @@ main {
 main section {
     margin: 0.5rem;
 	background-color: #29aed6;
-    text-align: center;
+    text-align: left;
     font-family: 'Poppins', sans-serif;
-    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.s1 {
+    outline-style: solid;
+    outline-width: thin;
+}
+
+.s2 {
+    outline-style: solid;
+    outline-width: thin;
+}
+
+.s3 {
+    display: none;
+}
+
+.join {
+    display: none;
 }
