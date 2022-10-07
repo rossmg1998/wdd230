@@ -1,4 +1,14 @@
 @media only screen and (min-width: 64rem) {
+    #hamburgerBtn {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: center;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
     
     nav ul li a {
         padding: .5rem 1rem;

@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    padding: 15px;
+    /*padding: 15px;*/
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -68,6 +68,10 @@ header a, footer a {
     color: white;
 }
 
+a img {
+    max-width: 40px;
+}
+
 nav button {
     margin: .2rem 2vw;
     background: transparent;
@@ -83,10 +87,6 @@ nav ul {
     margin: 0;
     font-family: 'Rubik', sans-serif;
 
-}
-
-nav ul li a img {
-    max-width: 50px;
 }
 
 nav ul li a {
