@@ -15,13 +15,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Quicksand:wght@700&family=Rubik:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="company">
     <header>
+        <div id="ceiling">
         <img src="images/company-logo.png" alt="Owasso Chamber of Commerce Logo">
-        <div id="company"></div>
         <h1>Owasso <br>Chamber of Commerce</h1>
         <nav>
-            <ul>
-                <li class="active"><a href="index.html">Discover</a></li>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="">Discover</a></li>
                 <li><a href="">Directory</a></li>
                 <li><a href="">Join</a></li>
                 <li><a href="">Contact</a></li>
@@ -29,41 +32,54 @@
                 <li><a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="Twitter icon"></a></li>
             </ul>
         </nav>
+        </div>
+        <div id="floor"><span id="todaydate"></span></div>
     </header>
     <main>
+        <div class="grid-container">
         <section>
             <div class="hero"></div>
             <h3>Hero with site name and call to action</h3>
         </section>
         <section>
-            <div class="event"></div>
+            <div id="event"></div>
             <h3>Event</h3>
         </section>
         <section>
-            <div class="weather"></div>
+            <div id="weather"></div>
             <h3>Weather</h3>
         </section>
         <section>
-            <div class="join"></div>
+            <div id="join"></div>
             <h3>Join</h3>
         </section>
         <section>
-            <div class="newsrelease"></div>
+            <div id="newsrelease"></div>
             <h3>News Release</h3>
         </section>
         <section>
-            <div class="spotlight1"></div>
+            <div id="spotlights"></div>
+
+            <div id="s1"></div>
             <h3>Spotlight 1</h3>
 
-            <div class="spotlight2"></div>
+            <div id="s2"></div>
             <h3>Spotlight 2</h3>
             
-            <div class="spotlight3"></div>
+            <div id="s3"></div>
             <h3>Spotlight 3</h3>
         </section>
+        </div>
     </main>
     <footer>
-
+        <div id="top">
+            <img src="images/company-logo.png" alt="Owasso Chamber of Commerce Logo">
+            <h3>Owasso Chamber of Commerce<br>315 S Cedar St, Owasso, OK 74055</h3>
+            <h3>info@owassocommerce.com<br>+(918)264 5536<br>Location Map</h3>
+        </div>
+        <div id="datediv">&copy; <span></span> Owasso Chamber | Ross M. Gardner | WDD 230 Project | Last Modification: <span id="lastupdatedate"></span></div>
     </footer>
+<script src="js/script.js"></script>
+</div>
 </body>
 </html>
