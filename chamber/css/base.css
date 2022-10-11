@@ -24,7 +24,7 @@ header #floor {
     align-items: center;
     text-align: center;
     padding: 1em;
-    background-color:#808c92;
+    background-color: #696969;
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
 }
@@ -78,7 +78,7 @@ nav button {
     border: none;
     font-size: 2rem;
     font-family: 'Rubik', sans-serif;
-    color: #808c92;
+    color: white;
 }
 
 nav ul {
