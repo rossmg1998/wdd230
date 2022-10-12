@@ -119,17 +119,15 @@ main {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
+    padding: 15px;
 }
 
-main section {
+main div {
     margin: 0.5rem;
 	background-color: #29aed6;
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
 }
 
 .s1 {

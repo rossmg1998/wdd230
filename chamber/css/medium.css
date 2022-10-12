@@ -10,7 +10,7 @@
         border-right: 1px solid rgba(0,0,0,0.3);
     }
 
-    .grid-container {
+    main {
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: minmax(100px, auto);;
