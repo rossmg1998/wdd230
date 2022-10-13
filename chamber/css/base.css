@@ -3,7 +3,6 @@ body {
 }
 
 header {
-    /*padding: 15px;*/
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -115,7 +114,7 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-#msg-box {
+#msg-box, .s3 {
     display: none;
 }
 
@@ -143,6 +142,10 @@ main div {
     position: relative;
 }
 
+.hero h2 {
+    font-size: 20px;
+}
+
 #joinBtn {
     position: absolute;
     right: 40px;
@@ -151,22 +154,41 @@ main div {
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
     background-color: green;
+    color: white;
 }
 
-.s1 {
+.newsrelease, .event, .weather h2, .weather p {
+    text-align: center;
+}
+
+.weather h1, .weather h3 {
+    text-align: right;
+}
+
+#wind {
+    border-top-style: solid;
+}
+
+#ws, #wc {
+    margin-left: 30px;
+}
+
+.s1, .s2 {
     outline-style: solid;
     outline-width: thin;
-}
-
-.s2 {
-    outline-style: solid;
-    outline-width: thin;
-}
-
-.s3 {
-    display: none;
 }
 
 .join {
     display: none;
+    text-align: center;
+    padding: 25px;
+}
+
+#joinUsBtn {
+    margin: 0 auto;
+    padding: 15px 100px 15px 100px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    background-color: green;
+    color: white;
 }
