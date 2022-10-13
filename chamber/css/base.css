@@ -124,7 +124,6 @@ nav ul.open {display: block;}
 }
 
 main {
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     padding: 15px;
@@ -140,6 +139,7 @@ main div {
 
 .hero {
     position: relative;
+    background-image: url('owasso.jpg');
 }
 
 .hero h2 {
