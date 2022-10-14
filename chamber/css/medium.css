@@ -35,21 +35,15 @@
         grid-row: 3;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
     }
 
-    .s1 .s2 .s3 {
+    .s1 .s2 {
         padding: 15px;
         width: 40%;
     }
 
-    .s1 {
-        outline-style: solid;
-        outline-width: thin;
-        text-align: center;
-    }
-
-    .s2 {
+    .s1, .s2 {
         outline-style: solid;
         outline-width: thin;
         text-align: center;
