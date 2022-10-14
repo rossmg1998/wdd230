@@ -139,10 +139,14 @@ main div {
 
 .hero {
     position: relative;
+    background-image: url(../images/owasso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero h2 {
     font-size: 20px;
+    color: black;
 }
 
 #joinBtn {
@@ -172,7 +176,6 @@ main div {
 #wind, #s1contact, #s2contact, #s3contact {
     border-top-style: solid;
     text-align: center;
-
 }
 
 #ws, #wc {
