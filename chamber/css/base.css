@@ -142,13 +142,13 @@ main div {
     background-image: url(../images/owasso.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 15px;
     height: 200px;
 }
 
 .hero h2 {
     font-size: 20px;
     color: black;
+    padding-left: 15px;
 }
 
 #joinBtn {
@@ -160,6 +160,14 @@ main div {
     box-shadow: 5px 5px 10px black;
     background-color: green;
     color: white;
+}
+
+.newsrelease {
+    padding: 15px;
+}
+
+.weather h1, .weather h3 {
+    padding: 15px;
 }
 
 .s1, .s2, .newsrelease, .event, .weather h2, .weather p {
