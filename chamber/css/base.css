@@ -142,8 +142,8 @@ main div {
     background-image: url(../images/owasso.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
     padding-left: 15px;
+    height: 200px;
 }
 
 .hero h2 {
