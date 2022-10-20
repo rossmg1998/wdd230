@@ -139,16 +139,22 @@ main div {
 
 .hero {
     position: relative;
-    background-image: url(../images/owasso.jpg);
+    /*background-image: url(../images/owasso.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 100%;*/
 }
 
 .hero h2 {
     font-size: 20px;
     color: black;
     padding-left: 15px;
+}
+
+.hero picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #joinBtn {
