@@ -173,6 +173,10 @@ main div {
     padding: 15px;
 }
 
+.event {
+    padding: 15px;
+}
+
 .weather img {
     max-width: 100px;
     padding: 15px;
