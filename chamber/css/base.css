@@ -213,6 +213,7 @@ main div {
 .s1, .s2 {
     outline-style: solid;
     outline-width: thin;
+    padding: 15px;
 }
 
 .join {
