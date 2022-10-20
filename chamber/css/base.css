@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: darkgray;
+    background-color: #696969;
     color: #fff;
 }
 
@@ -134,7 +134,7 @@ main div {
 	background-color: #29aed6;
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    padding: 15px 0;
+    /*padding: 15px 0;*/
 }
 
 .hero {
@@ -146,6 +146,7 @@ main div {
 }
 
 .hero h2 {
+    position: absolute;
     font-size: 20px;
     color: black;
     padding-left: 15px;
@@ -172,21 +173,28 @@ main div {
     padding: 15px;
 }
 
-.weather h1, .weather h3 {
+.weather img {
+    max-width: 100px;
     padding: 15px;
+    margin: 0 auto;
+    display: block;
+}
+
+.weather h1, .weather h3 {
+    padding: 25px;
 }
 
 .s1, .s2, .newsrelease, .event, .weather h2, .weather p {
     text-align: center;
 }
 
-.weather img, .s1 img, .s2 img, .s3 img {
+.s1 img, .s2 img, .s3 img {
     max-width: 100px;
     padding: 15px;
 }
 
 .weather h1, .weather h3 {
-    text-align: right;
+    text-align: center;
 }
 
 #wind, #s1contact, #s2contact, #s3contact {
