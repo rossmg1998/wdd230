@@ -1,0 +1,16 @@
+picture img {
+    display: block;
+    /*background-color: blue;*/
+    box-shadow: 5px 5px 5px 5px #246;
+    filter: blur(0.0em);
+    transition: filter 3s;
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+}
+
+picture img[data-src] {
+    filter: blur(0.1em);
+    width: 300px;
+    height: 400px;
+}
