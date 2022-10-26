@@ -10,9 +10,9 @@ image.onload = () => {
 };
 
 // Load all the images
-// imagesToLoad.forEach((img) => {
-// loadImages(img);
-// });
+//imagesToLoad.forEach((img) => {
+//loadImages(img);
+//});
 
 // Add an intersection observer if supported by the browser
 if ("IntersectionObserver" in window) {
