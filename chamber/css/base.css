@@ -234,3 +234,36 @@ main div {
     background-color: green;
     color: white;
 }
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+}
+
+.discover section {
+    margin: 0.5rem;
+    background-color: #29aed6;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+
+.discover section picture img {
+    display: block;
+    filter: blur(0.0em);
+    transition: filter 3s;
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+}
+
+.discover section picture img[data-src] {
+    filter: blur(0.1em);
+    width: 300px;
+    height: 400px;
+}
+
+.discover p {
+    font-family: 'Poppins', sans-serif;
+}
