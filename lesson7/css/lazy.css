@@ -1,6 +1,5 @@
 picture img {
     display: block;
-    /*background-color: blue;*/
     box-shadow: 5px 5px 5px 5px #246;
     filter: blur(0.0em);
     transition: filter 3s;
