@@ -236,10 +236,10 @@ main div {
 }
 
 .discover {
-    display: grid;
+    display: block;
     justify-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(100px, auto);
+    /*grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto);*/
     padding: 15px;
 }
 
@@ -254,8 +254,8 @@ main div {
 .discover section picture img {
     filter: blur(0.0em);
     transition: filter 10s;
-    width: 300px;
-    height: 400px;
+    /*width: 300px;
+    height: 400px;*/
     margin: 5px auto;
 }
 
@@ -263,8 +263,4 @@ main div {
     filter: blur(0.1em);
     width: 300px;
     height: 400px;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
 }
