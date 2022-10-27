@@ -238,6 +238,7 @@ main div {
 .discover {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto);
     padding: 15px;
 }
 
@@ -262,6 +263,10 @@ main div {
     filter: blur(0.1em);
     width: 300px;
     height: 400px;
+}
+
+.discover h3 {
+    text-align: center;
 }
 
 .discover p {
