@@ -252,7 +252,7 @@ main div {
 .discover section picture img {
     display: block;
     filter: blur(0.0em);
-    transition: filter 3s;
+    transition: filter 10s;
     width: 300px;
     height: 400px;
     margin: 5px;
