@@ -105,6 +105,11 @@
     footer #top {
         flex-direction: row;
     }
+
+    .discover {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 /*
     div{
         border: 2px black solid;
