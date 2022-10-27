@@ -40,25 +40,21 @@ else {
 }
 
 
-// Number of Visits
+// Last Visit to the Page
 
-// Initialize display elements
-const todayDisplay = document.querySelector(".today");
-const visitsDisplay = document.querySelector(".visits");
+// window.localStorage.setItem("last-visit", new Date("09/25/2022"));
 
-// Get the stored value in localStorage
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
+const visit = document.querySelector(".visits");
 
-// Determine if this is the first visit or display the number of visits.
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit!`;
+let visitMessage = "This is your first visit to the page.";
+let present = new Date();
+
+let lastVisitString = window.localStorage.getItem("last-visit");
+if (lastVisitString != null){
+    let lastVisitDate = new Date(lastVisitString);
+    let dateDifference = Math.floor((present.getTime() - lastVisitDate.getTime()) / (24 * 60 * 60 * 1000));
+    visitMessage = `You last visited the page ${dateDifference} days ago.`;
 }
 
-// Increment the number of visits.
-numVisits++;
-// Store the new number of visits value
-localStorage.setItem("visits-ls", numVisits);
-// Show todays date.
-todayDisplay.textContent = Date.now();
+visit.textContent = visitMessage;
+window.localStorage.setItem("last-visit", present.toString());
