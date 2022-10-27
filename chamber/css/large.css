@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 960px) {
     #hamburgerBtn {
         display: none;
     }
@@ -104,10 +104,6 @@
 
     footer #top {
         flex-direction: row;
-    }
-
-    .discover {
-        grid-template-columns: 1fr 1fr 1fr;
     }
 
 /*
