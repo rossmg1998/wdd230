@@ -169,11 +169,7 @@ main div {
     color: white;
 }
 
-.newsrelease {
-    padding: 15px;
-}
-
-.event {
+.newsrelease, .event {
     padding: 15px;
 }
 
@@ -206,7 +202,7 @@ main div {
     text-align: center;
 }
 
-#ws, #wc {
+#ws, #wc, #pop, #med-age, #pov-rate, #med-house-income, #med-prop-val, #emp-pop {
     margin-left: 30px;
 }
 
@@ -246,17 +242,22 @@ main div {
     background-color: #29aed6;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    padding: 15px;
+    padding: 25px;
 }
 
 .discover section picture img {
     filter: blur(0.0em);
-    transition: filter 10s;
+    transition: filter 5s;
     margin: 5px auto;
 }
 
 .discover section picture img[data-src] {
     filter: blur(0.1em);
-    width: 300px;
-    height: 400px;
+    /*width: 300px;
+    height: 400px;*/
+}
+
+.discover p {
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
