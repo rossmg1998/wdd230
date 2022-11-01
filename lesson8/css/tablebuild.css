@@ -1,0 +1,44 @@
+table {
+    font-family: Ubuntu, sans-serif;
+    box-shadow: 10px 10px 10px gray;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+
+thead, tfoot {
+    background-color: orange;
+}
+
+caption {
+    background-color: orangered;
+    font-size: 28px;
+}
+
+caption, th, td {
+    padding: 10px;
+}
+
+th {
+    font-size: 24px;
+}
+
+td {
+    font-size: 20px;
+}
+
+tfoot td {
+    font-size: 16px;
+}
+
+table, caption, th, td, tfoot {
+    border: 1px solid gray;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.italicize {
+    font-style: italic;
+}
