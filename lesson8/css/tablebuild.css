@@ -7,7 +7,7 @@ table {
 }
 
 thead, tfoot {
-    background-color: orange;
+    background-color: darkorange;
 }
 
 caption {
@@ -17,6 +17,14 @@ caption {
 
 caption, th, td {
     padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(255,228,196);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(255,222,173);
 }
 
 th {
