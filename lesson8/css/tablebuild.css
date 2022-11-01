@@ -6,25 +6,16 @@ table {
     margin: 0 auto;
 }
 
-thead, tfoot {
-    background-color: darkorange;
+caption, tfoot {
+    background-color: orangered;
 }
 
 caption {
-    background-color: rgb(210,105,30);
     font-size: 28px;
 }
 
 caption, th, td {
     padding: 10px;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: rgb(222,184,135);
-}
-
-tbody tr:nth-child(even) {
-    background-color: rgb(255,222,173);
 }
 
 th {
@@ -43,10 +34,18 @@ table, caption, th, td, tfoot {
     border: 1px solid gray;
 }
 
-.highlight {
-    background-color: rgb(218,165,32);
+.highlight, th {
+    background-color: darkorange;
 }
 
 .italicize {
     font-style: italic;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(222,184,135);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(255,222,173);
 }
