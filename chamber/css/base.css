@@ -231,6 +231,8 @@ main div {
     color: white;
 }
 
+/* Discover page */
+
 .discover {
     display: block;
     justify-items: center;
@@ -258,4 +260,79 @@ main div {
 .discover p {
     padding-top: 25px;
     padding-bottom: 50px;
+}
+
+/* Join page */
+
+.joinOwasso {
+    display: block;
+}
+
+.joinOwasso section {
+    margin: 8px;
+    background-color: #29aed6;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+}
+
+.joinOwasso section p {
+    text-align: center;
+}
+
+form fieldset {
+    margin: 32px 0;
+    border: 2px solid #244964;
+    border-radius: 16px;
+    padding: 8px 24px 2rem;
+}
+form legend {
+    color: black;
+    margin: 0 16px;
+    padding: 0 16px;
+    font-size: 24px;
+}
+
+label.myInput {
+    display: block;
+    padding-top: 16px;
+}
+
+label.myInput input, label.myInput textarea {
+    display: block;
+    font-size: 20px;
+    padding: 8px;
+    width: 96%;
+    max-width: 20rem;
+    border-radius: 8px;
+}
+
+label.myRadio {
+    display: block;
+    padding: 4px 0;
+}
+
+label.myRadio input {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.mySubmit {
+    background-color: green;
+    color: white;
+    margin: 16px 0 0 0;
+    padding: 16px;
+    width: 96%;
+    max-width: 20rem;
+    border-radius: 16px;
+    font-size: 24px;
+}
+
+label.myInput input:required {
+    border-left: red solid 6px;
+    border-right: red solid 6px;
+}
+
+label.myInput input:required:valid {
+    border-left: green solid 6px;
+    border-right: green solid 6px;
 }
