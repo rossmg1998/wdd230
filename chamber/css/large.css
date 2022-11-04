@@ -106,6 +106,13 @@
         flex-direction: row;
     }
 
+    /* Join page */
+
+    section div, .mlb {
+        margin: 0 auto;
+        width: 75%;
+    }
+
 /*
     div{
         border: 2px black solid;
