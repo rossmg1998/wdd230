@@ -1,0 +1,41 @@
+header h1,.cards h2, .cards p, footer {
+    text-align: center;
+}
+
+.cards {
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+.cards section {
+    margin: 5px;
+    border: 1px solid gray;
+    padding: 50px;
+}
+
+.cards img {
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px gray;
+    max-width: 100%;
+}
+
+footer {
+    padding: 25px;
+}
+
+@media only screen and (min-width: 600px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(100px, auto);
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: minmax(100px, auto);
+    }
+}
