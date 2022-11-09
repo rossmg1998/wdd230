@@ -2,21 +2,33 @@ header h1,.cards h2, .cards p, footer {
     text-align: center;
 }
 
+header h1,.cards h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #004526;
+}
+
+.cards p, footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .cards {
     margin: 0 auto;
-    border: 1px solid gray;
+    border: 1px solid darkgreen;
     padding: 15px;
+    background-color: lawngreen;
 }
 
 .cards section {
     margin: 5px;
-    border: 1px solid gray;
+    border: 1px solid darkgreen;
     padding: 50px;
+    background-color: greenyellow;
 }
 
 .cards img {
     border-collapse: collapse;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px darkgreen;
     max-width: 100%;
 }
 
