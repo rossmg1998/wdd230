@@ -113,6 +113,14 @@
         width: 75%;
     }
 
+    /* Directory page */
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: minmax(100px, auto);
+    }
+
 /*
     div{
         border: 2px black solid;

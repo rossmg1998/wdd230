@@ -336,3 +336,39 @@ label.myInput input:required:valid {
     border-left: green solid 6px;
     border-right: green solid 6px;
 }
+
+/* Directory page */
+
+.directoryOwasso {
+    display: block;
+}
+
+#cardsBtn, #tableBtn {
+    width: 80px;
+    height: 25px;
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+}
+
+.cards, .table {
+    background-color: #29aed6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto);
+}
+
+.table {
+    display: block;
+}
+
+td {
+    text-align: left;
+    padding: 15px;
+}
