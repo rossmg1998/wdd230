@@ -343,32 +343,49 @@ label.myInput input:required:valid {
     display: block;
 }
 
-#cardsBtn, #tableBtn {
-    width: 80px;
-    height: 25px;
+#bizheader {
+    background-color: #29aed6;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cardselect, #tableselect {
+    margin: 0 auto;
+    width: 40px;
     border: none;
     background: transparent;
     font-size: 2rem;
+    padding: 25px;
 }
 
-.cards, .table {
+#cardview, #tableview {
     background-color: #29aed6;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     padding: 25px;
+    margin: 0 auto;
 }
 
-.cards {
+#cardview {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: minmax(100px, auto);
 }
 
-.table {
+#cardview p {
+    text-align: center;
+}
+
+#tableview {
     display: block;
 }
 
-td {
+#tableview td {
     text-align: left;
-    padding: 15px;
+    padding: 25px;
+}
+
+#cardview p a, #tableview td a {
+    color: black;
 }
