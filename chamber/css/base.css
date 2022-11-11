@@ -373,6 +373,13 @@ label.myInput input:required:valid {
     grid-template-rows: minmax(100px, auto);
 }
 
+#cardview img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 #cardview p {
     text-align: center;
 }
