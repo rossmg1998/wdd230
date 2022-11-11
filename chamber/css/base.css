@@ -378,6 +378,7 @@ label.myInput input:required:valid {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding-top: 25px;
 }
 
 #cardview p {
@@ -394,12 +395,13 @@ label.myInput input:required:valid {
 
 #tableview table {
     border-collapse: collapse;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #tableview td {
     text-align: left;
-    padding: 25px;
+    padding: 15px 10px 15px 10px;
     border: 1px solid #244964;
 }
 
