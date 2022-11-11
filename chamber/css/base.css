@@ -382,5 +382,24 @@ label.myInput input:required:valid {
 }
 
 #tableview {
-    display: none;
+    display: block;
+}
+
+#tableview table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#tableview td {
+    text-align: left;
+    padding: 25px;
+    border: 1px solid #244964;
+}
+
+#tableview table tr:nth-child(odd) {
+    background-color: blue;
+}
+
+#tableview table tr:nth-child(even) {
+    background-color: #29aed6;
 }
