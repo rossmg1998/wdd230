@@ -59,6 +59,6 @@ const requestURL = 'https://rossmg1998.github.io/wdd230/chamber/data.json';
     .then(function (jsonObject) {
         console.table(jsonObject);  // Temporary checking for valid response and data parsing
         const companies = jsonObject['companies']; 
-        companies.forEach(displayCard); // In order to produce the output, loop through every record and process each one into its own 'card' (HTML output), one at a time
-        companies.forEach(displayTable); 
+        companies.forEach(displayCard); // In order to produce the output, loop through every record and process each one into its own 'card' (HTML output), one at a time 
+        companies.forEach(displayTable);
     });
