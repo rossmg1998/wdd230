@@ -364,7 +364,6 @@ label.myInput input:required:valid {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     padding: 25px;
-    margin: 0 auto;
 }
 
 #cardview {
@@ -385,7 +384,7 @@ label.myInput input:required:valid {
     text-align: center;
 }
 
-#cardview p a, #tableview td a {
+#cardview p a {
     color: black;
 }
 
@@ -399,16 +398,26 @@ label.myInput input:required:valid {
     margin-right: auto;
 }
 
-#tableview td {
+#tableview tr {
+    border: 1px solid black;
     text-align: left;
-    padding: 15px 10px 15px 10px;
-    border: 1px solid #244964;
+}
+
+#tableview td {
+    display: block;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    color: white;
+}
+
+#tableview td a {
+    color: white;
 }
 
 #tableview table tr:nth-child(odd) {
-    background-color: blue;
+    background-color: #244964;
 }
 
 #tableview table tr:nth-child(even) {
-    background-color: #29aed6;
+    background-color: #696969;
 }
