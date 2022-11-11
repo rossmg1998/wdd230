@@ -6,7 +6,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)272-6609",
             "websiteurl": "https://www.walmart.com/",
-            "imageurl": ""
+            "imageurl": "images/walmart200.webp"
         },
         {
             "name": "The Home Depot",
@@ -14,7 +14,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)376-9975",
             "websiteurl": "https://www.homedepot.com/",
-            "imageurl": ""
+            "imageurl": "images/homedepot200.webp"
         },
         {
             "name": "Lowe's Home Improvement",
@@ -22,7 +22,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)274-0881",
             "websiteurl": "https://www.lowes.com/",
-            "imageurl": ""
+            "imageurl": "images/lowes200.webp"
         },
         {
             "name": "Kohl's",
@@ -30,7 +30,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)376-2868",
             "websiteurl": "https://www.kohls.com/",
-            "imageurl": ""
+            "imageurl": "images/kohls200.webp"
         },
         {
             "name": "JCPenney",
@@ -38,7 +38,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)401-2460",
             "websiteurl": "https://www.jcpenney.com/",
-            "imageurl": ""
+            "imageurl": "images/jcpenney200.webp"
         },
         {
             "name": "Ross Dress for Less",
@@ -46,7 +46,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)272-3699",
             "websiteurl": "https://www.rossstores.com/",
-            "imageurl": ""
+            "imageurl": "images/ross200.webp"
         },
         {
             "name": "Old Navy",
@@ -54,7 +54,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)272-1422",
             "websiteurl": "https://oldnavy.gap.com/",
-            "imageurl": ""
+            "imageurl": "images/oldnavy200.webp"
         },
         {
             "name": "Target",
@@ -62,7 +62,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)401-8000",
             "websiteurl": "https://www.target.com/",
-            "imageurl": ""
+            "imageurl": "images/target200.webp"
         },
         {
             "name": "Hobby Lobby",
@@ -70,7 +70,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)274-3841",
             "websiteurl": "https://www.hobbylobby.com/",
-            "imageurl": ""
+            "imageurl": "images/hobby-lobby200.webp"
         },
         {
             "name": "Office Depot",
@@ -78,7 +78,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)274-4755",
             "websiteurl": "https://www.officedepot.com/",
-            "imageurl": ""
+            "imageurl": "images/office-depot200.webp"
         },
         {
             "name": "Dollar Tree",
@@ -86,7 +86,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)212-7014",
             "websiteurl": "https://www.dollartree.com/",
-            "imageurl": ""
+            "imageurl": "images/dollar-tree200.webp"
         },
         {
             "name": "GameStop",
@@ -94,7 +94,7 @@
             "citystatezip": "Owasso, OK 74055",
             "phonenumber": "(918)376-2716",
             "websiteurl": "https://www.gamestop.com/",
-            "imageurl": ""
+            "imageurl": "images/gamestop200.webp"
         }
     ]
 }
