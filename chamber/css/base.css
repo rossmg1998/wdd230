@@ -377,15 +377,10 @@ label.myInput input:required:valid {
     text-align: center;
 }
 
-#tableview {
-    display: block;
-}
-
-#tableview td {
-    text-align: left;
-    padding: 25px;
-}
-
 #cardview p a, #tableview td a {
     color: black;
+}
+
+#tableview {
+    display: none;
 }

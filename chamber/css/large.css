@@ -121,6 +121,10 @@
         grid-template-rows: minmax(100px, auto);
     }
 
+    #tableview table {
+        width: 100%;
+    }
+
 /*
     div{
         border: 2px black solid;
