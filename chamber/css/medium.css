@@ -83,4 +83,8 @@
         grid-template-rows: minmax(100px, auto);
     }
     
+    #tableview td {
+        display: table-cell;
+    }
+    
 }
