@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>OpenWeatherMap.org API Test</h1>
+    <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+    <p>The current conditions icon path is "<span id="icon-src"></span>"</p>
+    <figure>
+        <img src="" alt="" id="weathericon" />  <figcaption></figcaption>
+    </figure>
+</body>
+<script>
+    const LAT = "64.8378";
+    const LON = "-147.7164";
+    const APIKEY = "eb22837494a17e8cbf77eb2a0275a86e";
+    const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
+    
+    function showWeather(obj){
+        let currenttemp = document.querySelector("#current-temp");
+        let iconpath = document.querySelector("#icon-src");
+        let weathericon = document.querySelector("#weathericon");
+        let figurecaption = document.querySelector("figcaption");
+        const iconURL = `http://openweathermap.org/img/wn/${obj.weather[0].icon}@2x.png`;
+        currenttemp.textContent = obj.main.temp;
+        iconpath.textContent = iconURL;
+        weathericon.setAttribute("src", iconURL);
+        weathericon.setAttribute("alt",obj.weather[0].description);
+        figurecaption.textContent = obj.weather[0].main;
+        // setWindchill(obj.main.temp, obj.wind.speed);
+    }
+    fetch(apiURL)
+        .then((response) => response.json())
+        .then((jsObject) => {
+            console.log(jsObject);
+            showWeather(jsObject);
+  });
+</script>
+</html>
