@@ -12,7 +12,7 @@ function preloadImage(img) {
 }
 
 const options = {
-    threshold: 1 // 100% into viewport 
+    threshold: 0.3 // 100% into viewport 
 };
 
 const io = new IntersectionObserver (
