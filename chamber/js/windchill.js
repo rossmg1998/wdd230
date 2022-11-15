@@ -18,4 +18,5 @@ function setWindchill(temp, ws) {
     wcObj.innerHTML = wcMsg;
 }
 
+// Remove later
 setWindchill(49, 10);
