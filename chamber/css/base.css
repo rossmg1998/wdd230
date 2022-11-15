@@ -308,7 +308,7 @@ label.myInput input, label.myInput textarea {
 
 label.myRadio {
     display: block;
-    padding: 4px 0;
+    padding: 10px 0;
 }
 
 label.myRadio input {
