@@ -173,7 +173,7 @@ main div {
     padding: 15px;
 }
 
-.weather img {
+.weather figure img {
     max-width: 100px;
     padding: 15px;
     margin: 0 auto;
