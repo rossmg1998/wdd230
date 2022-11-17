@@ -180,11 +180,11 @@ main div {
     display: block;
 }
 
-.weather h1, .weather h3 {
+.weather h1 {
     padding: 25px;
 }
 
-.s1, .s2, .newsrelease, .event, .weather h2, .weather p {
+.s1, .s2, .newsrelease, .event, .weather h2, .weather figure figcaption, .weather h1, .weather p {
     text-align: center;
 }
 
@@ -193,8 +193,8 @@ main div {
     padding: 15px;
 }
 
-.weather h1, .weather figure figcaption {
-    text-align: center;
+.weather figure figcaption {
+    font-size: 20px;
 }
 
 #wind, #s1contact, #s2contact, #s3contact {
