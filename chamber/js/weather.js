@@ -19,7 +19,7 @@ function setWindchill(temp, ws) {
 }
 
 // Comment out later
-setWindchill(49, 10);
+// setWindchill(49, 10);
 
 
 const LAT = "36.2695";
@@ -34,11 +34,11 @@ function showWeather(obj){
     let figurecaption = document.querySelector("figcaption");
     const iconURL = `http://openweathermap.org/img/wn/${obj.weather[0].icon}@2x.png`;
     currenttemp.textContent = obj.main.temp;
-    iconpath.textContent = iconURL;
+    // iconpath.textContent = iconURL;
     weathericon.setAttribute("src", iconURL);
     weathericon.setAttribute("alt",obj.weather[0].description);
     figurecaption.textContent = obj.weather[0].main;
-    // setWindchill(obj.main.temp, obj.wind.speed);
+    setWindchill(obj.main.temp, obj.wind.speed);
 }
 
 fetch(apiURL)
