@@ -193,7 +193,7 @@ main div {
     padding: 15px;
 }
 
-.weather h1, .weather h3 {
+.weather h1, .weather figure figcaption {
     text-align: center;
 }
 
@@ -372,6 +372,12 @@ label.myInput input:required:valid {
     grid-template-rows: minmax(100px, auto);
 }
 
+#cardview div {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: #696969;
+}
+
 #cardview img {
     display: block;
     margin-left: auto;
@@ -382,14 +388,15 @@ label.myInput input:required:valid {
 
 #cardview p {
     text-align: center;
+    color: white;
 }
 
 #cardview p a {
-    color: black;
+    color: white;
 }
 
 #tableview {
-    display: block;
+    display: none;
 }
 
 #tableview table {
