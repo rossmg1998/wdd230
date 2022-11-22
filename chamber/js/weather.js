@@ -33,7 +33,7 @@ function showWeather(obj){
     let weathericon = document.querySelector("#weathericon");
     let figurecaption = document.querySelector("figcaption");
     const iconURL = `http://openweathermap.org/img/wn/${obj.weather[0].icon}@2x.png`;
-    currenttemp.textContent = obj.main.temp;
+    currenttemp.textContent = Math.round(obj.main.temp);
     // iconpath.textContent = iconURL;
     weathericon.setAttribute("src", iconURL);
     weathericon.setAttribute("alt",obj.weather[0].description);
