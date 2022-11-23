@@ -262,21 +262,27 @@ main div {
     padding-bottom: 50px;
 }
 
-/* Join page */
+/* Join/Contact page */
 
-.joinOwasso {
+.joinOwasso, .contactOwasso, .bod {
     display: block;
 }
 
-.joinOwasso section {
+.joinOwasso section, .contactOwasso section {
     margin: 8px;
     background-color: #29aed6;
     font-family: 'Poppins', sans-serif;
     padding: 25px;
 }
 
-.joinOwasso section p {
+.joinOwasso section p, .contactOwasso h2, .contactOwasso section p, .bod h3, .bod p {
     text-align: center;
+}
+
+.bod section {
+    border: 1px solid black;
+    background-color: #244964;
+    color: white;
 }
 
 form fieldset {
@@ -337,7 +343,7 @@ label.myInput input:required:valid {
     border-right: green solid 6px;
 }
 
-/* Directory page */
+/* Directory/Contact page */
 
 .directoryOwasso {
     display: block;
@@ -427,4 +433,11 @@ label.myInput input:required:valid {
 
 #tableview table tr:nth-child(even) {
     background-color: #696969;
+}
+
+.bod img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
 }

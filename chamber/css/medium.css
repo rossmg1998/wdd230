@@ -77,7 +77,7 @@
 
     /* Directory page */
 
-    #cardview {
+    #cardview, .bod {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: minmax(100px, auto);
