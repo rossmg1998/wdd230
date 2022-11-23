@@ -33,12 +33,12 @@ function showWeather(obj){
     let weathericon = document.querySelector("#weathericon");
     let figurecaption = document.querySelector("figcaption");
     const iconURL = `http://openweathermap.org/img/wn/${obj.weather[0].icon}@2x.png`;
-    currenttemp.textContent = Math.round(obj.main.temp);
+    // currenttemp.textContent = Math.round(obj.main.temp);
     // iconpath.textContent = iconURL;
     weathericon.setAttribute("src", iconURL);
     weathericon.setAttribute("alt",obj.weather[0].description);
     figurecaption.textContent = obj.weather[0].main;
-    setWindchill(obj.main.temp, obj.wind.speed);
+    setWindchill(Math.round(obj.main.temp), Math.round(obj.wind.speed));
 }
 
 fetch(apiURL)
