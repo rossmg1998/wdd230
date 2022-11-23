@@ -38,8 +38,49 @@
                 <p id="msg">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
             </div>
     </header>
-    <main>
-    
+    <main class="contactOwasso">
+        <section>
+            <div>
+            <h1>Contact <br>Owasso Chamber of Commerce</h1>
+                <form method="GET" action="thankyou.html">
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+                        <label class="myInput">First Name* <input type="text" name="fname" required></label>
+                        <label class="myInput">Last Name* <input type="text" name="lname" required></label>
+                        <label class="myInput">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="myInput">Cell Phone <input type="tel" name="cellphone"></label>
+                        <label class="myInput">Message<textarea name="description" cols="40" rows="5"></textarea></label>
+                        <label><input id="currentDate" type="hidden" name="datetime" value=""></label>
+                        <input class="mySubmit" type="submit" value="Contact Us!">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <section>
+            <h2>Board of Directors</h2> 
+            <div class="bod">
+                <section>
+                    <img src="images/michael-scott200.webp" alt="Michael Scott">
+                    <h3>Michael Scott</h3>
+                    <p>Executive Chair</p>
+                </section>
+                <section>
+                    <img src="images/dwight-schrute200.webp" alt="Dwight Schrute">
+                    <h3>Dwight Schrute</h3>
+                    <p>Vice Chair</p>
+                </section>
+                <section>
+                    <img src="images/jim-halpert200.webp" alt="Jim Halpert">
+                    <h3>Jim Halpert</h3>
+                    <p>Finance Chair</p>
+                </section>
+                <section>
+                    <img src="images/pam-beesly200.webp" alt="Pam Beesly">
+                    <h3>Pam Beesly</h3>
+                    <p>Secretary</p>
+                </section>
+            </div>
+        </section>  
     </main>
     <footer>
         <div id="top">
@@ -50,6 +91,7 @@
         <div id="datediv">&copy; <span id="footeryear"></span> Owasso Chamber | Ross M. Gardner | WDD 230 Project | Last Modification: <span id="lastupdatedate"></span></div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/join.js"></script>
     </div> 
 </body>
 </html>
