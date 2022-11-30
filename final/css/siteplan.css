@@ -1,0 +1,70 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header h1, footer {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer {
+    border-top-style: solid;
+    padding: 25px;
+    font-weight: bold;
+}
+
+footer, #primaryNav {
+    font-family: 'Rubik', sans-serif;
+}
+
+nav ul li {
+    padding: 5px;
+}
+
+section {
+    border-top-style: solid;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+/* Color Scheme section */
+.primary, .secondary, .accent1, .accent2 {
+    padding: 10px;
+}
+
+.primary {
+    background-color: #BF40BF;
+}
+
+.secondary {
+    background-color: #9F2B68;
+    color: white;
+}
+
+.accent1 {
+    background-color: #DA70D6;
+}
+
+.accent2 {
+    background-color: #770737;
+    color: white;
+}
+
+/* Typography section */
+table {
+    font-family: 'Nunito Sans', sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+  }
