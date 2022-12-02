@@ -1,0 +1,155 @@
+body {
+    background-color: #DA70D6;
+    padding: 15px;
+}
+
+header {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header #ceiling{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a img {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+header h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 1em;
+}
+
+footer #top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1em;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-bottom-style: solid;
+    border-color: #770737;
+}
+
+#datediv {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+#footeryear {
+    margin-right: 10px;
+}
+
+header, footer, nav {
+    color: white;
+}
+
+header, footer {
+    background-color: #9F2B68;
+}
+
+nav {
+    background-color: #770737;
+}
+
+nav a img {
+    max-width: 40px;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0,0,0,0.5)
+}
+
+nav ul li.active a {
+    background-color: #DA70D6;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+}
+
+main div {
+    margin: 0.5rem;
+	background-color: #BF40BF;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 15px 0
+}
+
+.summary {
+    position: relative;
+    text-align: center;
+    padding: 15px;
+}
+
+.summary picture img {
+    object-fit: cover;
+}
+
+.summary p {
+    color: white;
+}
+
+.callAction {
+    text-align: center;
+    padding: 25px;
+}
+
+#hotelReserveBtn {
+    margin: 0 auto;
+    padding: 15px 50px 15px 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    background-color: blue;
+    color: white;
+}
