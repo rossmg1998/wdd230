@@ -150,6 +150,10 @@ main div {
     padding: 15px 50px 15px 50px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px black;
-    background-color: blue;
+    background-color: darkblue;
     color: white;
+}
+
+#hotelReserveBtn:hover {
+    background-color: blue;
 }
