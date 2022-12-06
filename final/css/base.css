@@ -112,6 +112,7 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+/* Index.html */
 main {
     display: grid;
     grid-template-columns: 1fr;
@@ -157,3 +158,12 @@ main div {
 #hotelReserveBtn:hover {
     background-color: blue;
 }
+
+/* Temple.html */
+
+
+/* Reservation.html */
+
+
+/* Services.html */
+
