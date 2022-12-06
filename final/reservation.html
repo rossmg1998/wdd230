@@ -33,8 +33,36 @@
         </nav>
         </div>
     </header>
-    <main>
-        
+    <main class="reserveHotel">
+        <section>
+            <div>
+            <h1>Reservation for Temple Inn & Suites</h1>
+                <form method="GET" action="thanks.html">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label class="myInput">First & Last Name* <input type="text" name="name" required></label>
+                        <label class="myInput">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                        <label class="myInput">Cell Phone* <input type="tel" name="cellphone" required></label>
+                        <label class="myInput">Home State/Country <input type="text" name="home"></label>
+                        <h3>Stay Period</h3>
+                        <label class="myStay">Start Date & Time* <input type="text" name="start-date" required></label>
+                        <label class="myStay">End Date & Time* <input type="text" name="end-date" required></label>
+                        <h3>Hotel Room</h3>
+                        <label class="myHotel"><input type="radio" name="room-type" value="standard">Standard</label>
+                        <label class="myHotel"><input type="radio" name="room-type" value="connecting">Connecting</label>
+                        <label class="myHotel"><input type="radio" name="room-type" value="deluxe">Deluxe</label>
+                        <label class="myHotel"><input type="radio" name="room-type" value="suite">Suite</label>
+                        <h3>Number of Bedrooms</h3>
+                        <label class="myBedrooms"><input type="radio" name="bedroom-count" value="1">1</label>
+                        <label class="myBedrooms"><input type="radio" name="bedroom-count" value="2">2</label>
+                        <label class="myBedrooms"><input type="radio" name="bedroom-count" value="3">3</label>
+                        <label class="myInput">Special Accommodations/Comments<textarea name="description" cols="40" rows="5"></textarea></label>
+                        <label><input id="currentDate" type="hidden" name="datetime" value=""></label>
+                        <label><input class="mySubmit" type="submit" value="Make Reservation"></label>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
         <div id="top">
