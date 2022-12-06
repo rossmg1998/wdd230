@@ -159,11 +159,119 @@ main div {
     background-color: blue;
 }
 
+.weather figure img {
+    max-width: 100px;
+    padding: 15px;
+    margin: 0 auto;
+    display: block;
+}
+
+.weather h1 {
+    padding: 25px;
+}
+
+.weather h2, .weather figure figcaption, .weather h1, .weather h3, #wind {
+    text-align: center;
+}
+
+.weather figure figcaption {
+    font-size: 20px;
+}
+
+#wind {
+    border-top-style: solid;
+}
+
+#ws, #wc, #humid {
+    margin-left: 30px;
+}
+
 /* Temple.html */
 
 
 /* Reservation.html */
+.reserveHotel {
+    display: block;
+}
 
+.reserveHotel section {
+    margin: 8px;
+    background-color: #BF40BF;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+}
+
+.reserveHotel section p {
+    text-align: center;
+}
+
+form fieldset {
+    margin: 32px 0;
+    border: 2px solid #770737;
+    border-radius: 16px;
+    padding: 8px 24px 2rem;
+}
+
+label.myInput {
+    display: block;
+    padding-top: 16px;
+}
+
+label.myInput input, label.myInput textarea {
+    display: block;
+    font-size: 20px;
+    padding: 8px;
+    width: 96%;
+    max-width: 20rem;
+    border-radius: 8px;
+}
+
+label.myRadio {
+    display: block;
+    padding: 10px 0;
+}
+
+label.myRadio input {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.mySubmit {
+    background-color: darkblue;
+    color: white;
+    margin: 16px 0 0 0;
+    padding: 16px;
+    width: 96%;
+    max-width: 20rem;
+    border-radius: 16px;
+    font-size: 24px;
+}
+
+.mySubmit:hover {
+    background-color: blue;
+}
+
+label.myInput input:required {
+    border-left: red solid 6px;
+    border-right: red solid 6px;
+}
+
+label.myInput input:required:hover {
+    background-color: red;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
+}
+
+label.myInput input:required:valid {
+    border-left: green solid 6px;
+    border-right: green solid 6px;
+}
+
+label.myInput input:required:valid:hover {
+    background-color: green;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
+}
 
 /* Services.html */
 
