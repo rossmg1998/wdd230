@@ -1,10 +1,13 @@
 // Display Cards
 function displayCard(temple) {  // Create elements to add to the document
     let card = document.createElement("div");
-    card.innerHTML=`<img src="${temple.imageurl}">
-        <p>${temple.address}<br>${temple.citystatezip}</p>
-        <p>${temple.phonenumber}</p>
-        <p><a href="${temple.websiteurl}">${temple.websiteurl}</a></p>`;
+    card.innerHTML= `<h2>${temple.name}</h2>
+        <img src="${temple.imageurl}">
+        <h3>${temple.address}<br>${temple.citystatezip}</h3>
+        <h3>${temple.telephone}</h3>
+        <h3>${temple.services}</h3>
+        <h3>${temple.closurechedule}</h3>
+        <h3>${temple.milestones}</h3>`;
     card.appendChild(card);
 
     // Add/append the existing HTML div with the cards class with the section(card)
@@ -13,7 +16,7 @@ function displayCard(temple) {  // Create elements to add to the document
 
 // Pointer to JSON file
 // Store the resource, the URL of the JSON file into a const variable to start
-const requestURL = 'https://rossmg1998.github.io/wdd230/chamber/data.json';
+const requestURL = 'https://rossmg1998.github.io/wdd230/final/temple.json';
 
     // Gets the information from the JSON file into the required argument
     fetch(requestURL)
