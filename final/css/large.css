@@ -42,5 +42,12 @@
     footer #top {
         flex-direction: row;
     }
+
+    /* Temple.html */
+    #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: minmax(100px, auto);
+    }
     
     }

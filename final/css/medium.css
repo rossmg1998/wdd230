@@ -21,4 +21,11 @@
     main div:nth-child(3) {
         grid-column: span 2;
     }
+
+    /* Temple.html */
+    #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(100px, auto);
+    }
 }
