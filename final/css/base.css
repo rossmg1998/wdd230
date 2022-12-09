@@ -208,10 +208,11 @@ main div {
     padding: 25px;
 }
 
-#cards div {
+#cards section {
     margin: 15px;
-    border: 1px solid black;
-    background-color: #696969;
+    padding: 25px 15px 25px 15px;
+    border: 2px solid black;
+    background-color: purple;
 }
 
 #cards img {
@@ -222,12 +223,22 @@ main div {
     padding-top: 25px;
 }
 
-#cards p {
+ #cards h2, #cards p, #cards ul, #cards li {
     text-align: center;
     color: white;
 }
 
-#cards p a {
+#cards li {
+    list-style-type: none;
+}
+
+#cards input {
+    width: 1em;
+    height: 1em;
+    margin: 1em;
+}
+
+#cards label {
     color: white;
 }
 
