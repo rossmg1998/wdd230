@@ -1,6 +1,7 @@
 {
     "temples": [
         {
+            "id": "temple1",
             "name": "Washington D.C. Temple",
             "address": "9900 Stoneybrook Dr,",
             "citystatezip": "Kensington, MD 20895",
@@ -17,6 +18,7 @@
             "imageurl": "images/washington-dc-temple300.webp"
         },
         {
+            "id": "temple2",
             "name": "Philadelphia Pennsylvania Temple",
             "address": "1739 Vine St,",
             "citystatezip": "Philadelphia, PA 19103",
@@ -30,9 +32,10 @@
             "milestones": ["Announced: 4 October 2008"
                             , "Groundbreaking: 17 September 2011"
                             , "Dedicated: 18 September 2016"],
-            "imageurl": ""
+            "imageurl": "images/philadelphia-pennsylvania-temple300.webp"
         },
         {
+            "id": "temple3",
             "name": "Manhattan New York Temple",
             "address": "125 Columbus Ave, Fourth Floor,",
             "citystatezip": "New York, NY 10023",
@@ -46,9 +49,10 @@
             "milestones": ["Announced: 7 August 2002"
                             , "Groundbreaking: 23 September 2002"
                             , "Dedicated: 13 June 2004"],
-            "imageurl": ""
+            "imageurl": "images/manhattan-new-york-temple300.webp"
         },
         {
+            "id": "temple4",
             "name": "Hartford Connecticut Temple",
             "address": "2 Central Wy,",
             "citystatezip": "Farmington, CT 06032",
@@ -62,9 +66,10 @@
             "milestones": ["Announced: 2 October 2010"
                             , "Groundbreaking: 17 August 2013"
                             , "Dedicated: 20 November 2016"],
-            "imageurl": ""
+            "imageurl": "images/hartford-connecticut-temple300.webp"
         },
         {
+            "id": "temple5",
             "name": "Boston Massachusetts Temple",
             "address": "100 Hinckley Wy,",
             "citystatezip": "Belmont, MA 02478",
@@ -78,9 +83,10 @@
             "milestones": ["Announced: 30 September 1995"
                             , "Groundbreaking: 13 June 1997"
                             , "Dedicated: 1 October 2000"],
-            "imageurl": ""
+            "imageurl": "images/boston-massachusetts-temple300.webp"
         },
         {
+            "id": "temple6",
             "name": "Raleigh North Carolina Temple",
             "address": "574 Bryan Dr,",
             "citystatezip": "Apex, NC 27502",
@@ -94,7 +100,7 @@
             "milestones": ["Announced: 3 September 1998"
                             , "Groundbreaking: 6 February 1999"
                             , "Dedicated: 18 December 1999"],
-            "imageurl": ""
+            "imageurl": "images/raleigh-north-carolina-temple300.webp"
         }
     ]
 }
