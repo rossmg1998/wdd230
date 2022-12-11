@@ -15,7 +15,7 @@
         padding: .5rem 1rem;
     }
 
-    main{
+    main {
         grid-template-columns: 1fr 1fr 1fr;
     }
     
@@ -23,19 +23,22 @@
         grid-column: span 1;
     }
 
-    .weather {
+    .weather, .reception {
         grid-column: 1;
         grid-row: 1;
     }
 
-    .summary {
+    .summary, .services {
         grid-column: 2;
         grid-row: 1;
     }
 
-    .callAction {
+    .callAction, .missionary {
         grid-column: 3;
         grid-row: 1;
+    }
+
+    .callAction, .reception, .missionary {
         padding: 200px 25px 100px 25px;
     }
 

@@ -10,8 +10,9 @@
         border-right: 1px solid rgba(0,0,0,0.3);
     }
 
-    main{
+    main {
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(100px, auto);;
     } 
     
     main div:nth-child(2) {
@@ -22,10 +23,27 @@
         grid-column: span 2;
     }
 
+    /* Services.html */
+    .services {
+        grid-column: span 2;
+        grid-row: 1;
+    }
+
+    .reception {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .missionary {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
     /* Temple.html */
     #cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: minmax(100px, auto);
     }
+
 }

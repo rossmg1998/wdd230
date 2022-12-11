@@ -112,7 +112,7 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-/* Index.html */
+/* Index.html/Services.html/Reception.html */
 main {
     display: grid;
     grid-template-columns: 1fr;
@@ -127,7 +127,7 @@ main div {
     padding: 15px 0
 }
 
-.summary {
+.summary, .services, .accommodations, .foodservice, .setup {
     position: relative;
     text-align: center;
     padding: 15px;
@@ -137,16 +137,21 @@ main div {
     object-fit: cover;
 }
 
-.summary p {
+.summary p, .services ul li, .accommodations ul li, .foodservice ul li, .setup ul li, .foodservice p, .setup p {
     color: white;
 }
 
-.callAction {
+.services ul li, .accommodations ul li, .foodservice ul li, .setup ul li {
+    text-align: left;
+    padding: 5px;
+}
+
+.callAction, .reception, .missionary {
     text-align: center;
     padding: 25px;
 }
 
-#hotelReserveBtn {
+#hotelReserveBtn, #receptionInfoBtn, #missionaryInfoBtn {
     margin: 0 auto;
     padding: 15px 50px 15px 50px;
     border-radius: 15px;
@@ -155,10 +160,11 @@ main div {
     color: white;
 }
 
-#hotelReserveBtn:hover {
+#hotelReserveBtn:hover, #receptionInfoBtn:hover, #missionaryInfoBtn:hover {
     background-color: blue;
 }
 
+/* Index.html */
 .weather figure img {
     max-width: 100px;
     padding: 15px;
@@ -243,20 +249,25 @@ main div {
     color: white;
 }
 
-/* Reservation.html */
-.reserveHotel {
+/* Reservation.html & Missionary.html */
+.reserveHotel, .contactTemple {
     display: block;
 }
 
-.reserveHotel section {
+.reserveHotel section, .contactTemple section {
     margin: 8px;
     background-color: #BF40BF;
     font-family: 'Poppins', sans-serif;
     padding: 25px;
 }
 
-.reserveHotel section p {
+.contactTemple section h1, .contactTemple section h3 {
     text-align: center;
+}
+
+.reserveHotel section p, .contactTemple section p {
+    text-align: center;
+    color: white;
 }
 
 form fieldset {
@@ -326,6 +337,3 @@ label.myInput input:required:valid:hover {
     border-left: black solid 3px;
     border-right: black solid 3px;
 }
-
-/* Services.html */
-
