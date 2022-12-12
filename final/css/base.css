@@ -249,24 +249,28 @@ main div {
     color: white;
 }
 
-/* Reservation.html & Missionary.html */
-.reserveHotel, .contactTemple {
+/* Reservation.html/Thanks.html */ 
+/* Missionary.html/Thankyou.html */
+.reserveHotel, .templeMissionary, .hotelReserved, .contactSent {
     display: block;
 }
 
-.reserveHotel section, .contactTemple section {
+.reserveHotel section, .templeMissionary section, .hotelReserved section, .contactSent section {
     margin: 8px;
     background-color: #BF40BF;
     font-family: 'Poppins', sans-serif;
     padding: 25px;
 }
 
-.contactTemple section h1, .contactTemple section h3 {
+.reserveHotel h1, .suites h1, .suites h2, .contactTemple h1, .hotelReserved section, .contactSent section {
     text-align: center;
 }
 
-.reserveHotel section p, .contactTemple section p {
-    text-align: center;
+.contactTemple h3 {
+    text-align: left;
+}
+
+.hotelReserved section, .contactSent section {
     color: white;
 }
 
