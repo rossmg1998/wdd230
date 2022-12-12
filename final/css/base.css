@@ -52,11 +52,14 @@ footer #top {
     margin-right: 10px;
 }
 
-header, footer, nav {
+header, 
+footer, 
+nav {
     color: white;
 }
 
-header, footer {
+header, 
+footer {
     background-color: #9F2B68;
 }
 
@@ -112,7 +115,9 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-/* Index.html/Services.html/Reception.html */
+/* Index.html */ 
+/* Services.html */ 
+/* Reception.html */
 main {
     display: grid;
     grid-template-columns: 1fr;
@@ -127,7 +132,11 @@ main div {
     padding: 15px 0
 }
 
-.summary, .services, .accommodations, .foodservice, .setup {
+.summary, 
+.services, 
+.accommodations, 
+.foodservice, 
+.setup {
     position: relative;
     text-align: center;
     padding: 15px;
@@ -137,21 +146,34 @@ main div {
     object-fit: cover;
 }
 
-.summary p, .services ul li, .accommodations ul li, .foodservice ul li, .setup ul li, .foodservice p, .setup p {
+.summary p, 
+.services ul li, 
+.accommodations ul li, 
+.foodservice ul li, 
+.setup ul li, 
+.foodservice p, 
+.setup p {
     color: white;
 }
 
-.services ul li, .accommodations ul li, .foodservice ul li, .setup ul li {
+.services ul li, 
+.accommodations ul li, 
+.foodservice ul li, 
+.setup ul li {
     text-align: left;
     padding: 5px;
 }
 
-.callAction, .reception, .missionary {
+.callAction, 
+.reception, 
+.missionary {
     text-align: center;
     padding: 25px;
 }
 
-#hotelReserveBtn, #receptionInfoBtn, #missionaryInfoBtn {
+#hotelReserveBtn, 
+#receptionInfoBtn, 
+#missionaryInfoBtn {
     margin: 0 auto;
     padding: 15px 50px 15px 50px;
     border-radius: 15px;
@@ -160,7 +182,9 @@ main div {
     color: white;
 }
 
-#hotelReserveBtn:hover, #receptionInfoBtn:hover, #missionaryInfoBtn:hover {
+#hotelReserveBtn:hover, 
+#receptionInfoBtn:hover, 
+#missionaryInfoBtn:hover {
     background-color: blue;
 }
 
@@ -176,7 +200,11 @@ main div {
     padding: 25px;
 }
 
-.weather h2, .weather figure figcaption, .weather h1, .weather h3, #wind {
+.weather h2, 
+.weather figure figcaption, 
+.weather h1, 
+.weather h3, 
+#wind {
     text-align: center;
 }
 
@@ -188,7 +216,9 @@ main div {
     border-top-style: solid;
 }
 
-#ws, #wc, #humid {
+#ws, 
+#wc, 
+#humid {
     margin-left: 30px;
 }
 
@@ -230,7 +260,10 @@ main div {
     padding-top: 25px;
 }
 
- #cards h2, #cards p, #cards ul, #cards li {
+ #cards h2, 
+ #cards p, 
+ #cards ul, 
+ #cards li {
     text-align: center;
     color: white;
 }
@@ -251,18 +284,29 @@ main div {
 
 /* Reservation.html/Thanks.html */ 
 /* Missionary.html/Thankyou.html */
-.reserveHotel, .templeMissionary, .hotelReserved, .contactSent {
+.reserveHotel, 
+.templeMissionary, 
+.hotelReserved, 
+.contactSent {
     display: block;
 }
 
-.reserveHotel section, .templeMissionary section, .hotelReserved section, .contactSent section {
+.reserveHotel section, 
+.templeMissionary section, 
+.hotelReserved section, 
+.contactSent section {
     margin: 8px;
     background-color: #BF40BF;
     font-family: 'Poppins', sans-serif;
     padding: 25px;
 }
 
-.reserveHotel h1, .suites h1, .suites h2, .contactTemple h1, .hotelReserved section, .contactSent section {
+.reserveHotel h1, 
+.suites h1, 
+.suites h2, 
+.contactTemple h1, 
+.hotelReserved section, 
+.contactSent section {
     text-align: center;
 }
 
@@ -270,7 +314,8 @@ main div {
     text-align: left;
 }
 
-.hotelReserved section, .contactSent section {
+.hotelReserved section, 
+.contactSent section {
     color: white;
 }
 
@@ -286,7 +331,8 @@ label.myInput {
     padding-top: 16px;
 }
 
-label.myInput input, label.myInput textarea {
+label.myInput input, 
+label.myInput textarea {
     display: block;
     font-size: 20px;
     padding: 8px;

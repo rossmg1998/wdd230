@@ -23,22 +23,27 @@
         grid-column: span 1;
     }
 
-    .weather, .reception {
+    .weather, 
+    .reception {
         grid-column: 1;
         grid-row: 1;
     }
 
-    .summary, .services {
+    .summary, 
+    .services {
         grid-column: 2;
         grid-row: 1;
     }
 
-    .callAction, .missionary {
+    .callAction, 
+    .missionary {
         grid-column: 3;
         grid-row: 1;
     }
 
-    .callAction, .reception, .missionary {
+    .callAction, 
+    .reception, 
+    .missionary {
         padding: 200px 25px 100px 25px;
     }
 
