@@ -64,7 +64,7 @@ function displayTemple(temple) {
 
     let templelike = document.createElement('input');
     templelike.setAttribute('type', 'checkbox');
-    templelike.id='check-${temple.id}';
+    templelike.id=`check-${temple.id}`;
     templelike.setAttribute('onclick', 'likeTemple(this)');
 
     let templeliketext = document.createElement('label');
