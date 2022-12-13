@@ -8,10 +8,10 @@
         justify-content: center;
         align-items: center;
         margin-left: 2vw;
-        /*border-left: 1px solid black;*/
     }
     
     nav ul li a {
+        border: none;
         padding: .5rem 1rem;
     }
 

@@ -98,7 +98,6 @@ nav ul li a {
     padding: .8rem 2vw;
     text-decoration: none;
     color: white;
-    border-top: 1px solid rgba(0,0,0,0.5)
 }
 
 /* Navigation Menu */
@@ -125,7 +124,7 @@ nav ul.open {display: block;}
 
 /* Services Dropdown Menu */
 .dropbtn {
-    padding: 16px;
+    padding: .8rem 2vw;
     font-size: 16px;
     border: none;
   }
@@ -139,9 +138,9 @@ nav ul.open {display: block;}
     display: none;
     position: absolute;
     background-color: #770737;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
     border-radius: 10px;
     min-width: 160px;
     overflow: auto;
@@ -150,6 +149,7 @@ nav ul.open {display: block;}
   
   .dropdown-content a {
     color: white;
+    border-top: 1px solid black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
