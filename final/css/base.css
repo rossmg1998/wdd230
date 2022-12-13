@@ -1,8 +1,10 @@
+/* Body */
 body {
     background-color: #DA70D6;
     padding: 15px;
 }
 
+/* Header */
 header {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -22,6 +24,7 @@ header h1 {
     font-family: 'PT Sans', sans-serif;
 }
 
+/* Footer */
 footer{
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
@@ -52,6 +55,7 @@ footer #top {
     margin-right: 10px;
 }
 
+/* Header/Footer/Navigation Menu */
 header, 
 footer, 
 nav {
@@ -63,6 +67,7 @@ footer {
     background-color: #9F2B68;
 }
 
+/* Navigation Menu */
 nav {
     background-color: #770737;
 }
@@ -96,16 +101,19 @@ nav ul li a {
     border-top: 1px solid rgba(0,0,0,0.5)
 }
 
-nav ul li.active a {
+/* Navigation Menu */
+/* Services Dropdown Menu */
+nav ul li.active a, .dropdown a.active {
     background-color: #DA70D6;
     color: #fff;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, .dropbtn:hover, .dropdown a:hover {
     background-color: white;
     color: black;
 }
 
+/* Hamburger Button */
 nav ul {display: none;}
 nav ul.open {display: block;}
 
@@ -114,6 +122,42 @@ nav ul.open {display: block;}
 
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
+
+/* Services Dropdown Menu */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #770737;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .show {
+    display: block;
+    }
 
 /* Index.html */ 
 /* Services.html */ 
@@ -308,6 +352,18 @@ main div {
 .hotelReserved section, 
 .contactSent section {
     text-align: center;
+}
+
+.suites h2 {
+    padding-top: 25px;
+}
+
+.suites picture img {
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .contactTemple h3 {
