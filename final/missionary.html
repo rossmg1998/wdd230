@@ -26,7 +26,14 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temple</a></li>
                 <li><a href="reservation.html">Reservation</a></li>
-                <li class="active"><a href="services.html">Services</a></li>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Services</button>
+                    <div id="myDropdown" class="dropdown-content">
+                    <a href="services.html">Services</a>
+                    <a href="reception.html">Wedding Reception</a>
+                    <a class="active" href="missionary.html">Temple Missionary</a>
+                    </div>
+                </div>
                 <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook icon"></a>
                 <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="Twitter icon"></a>
             </ul>
@@ -38,9 +45,37 @@
             <div>
                 <h1>Suites</h1>
                 <h2>Standard</h2>
+                <picture>
+                    <source srcset="images/standard-suite500.webp" media="(min-width: 
+                    64rem)">
+                    <source srcset="images/standard-suite400.webp" media="(min-width: 
+                    35rem)">
+                    <img src="images/standard-suite300.webp" alt="Standard Suite Image">
+                </picture>
                 <h2>Junior</h2>
+                <picture>
+                    <source srcset="images/junior-suite500.webp" media="(min-width: 
+                    64rem)">
+                    <source srcset="images/junior-suite400.webp" media="(min-width: 
+                    35rem)">
+                    <img src="images/junior-suite300.webp" alt="Junior Suite Image">
+                </picture>
                 <h2>Presidential</h2>
+                <picture>
+                    <source srcset="images/presidential-suite500.webp" media="(min-width: 
+                    64rem)">
+                    <source srcset="images/presidential-suite400.webp" media="(min-width: 
+                    35rem)">
+                    <img src="images/presidential-suite300.webp" alt="Presidential Suite Image">
+                </picture>
                 <h2>Penthouse</h2>
+                <picture>
+                    <source srcset="images/penthouse-suite500.webp" media="(min-width: 
+                    64rem)">
+                    <source srcset="images/penthouse-suite400.webp" media="(min-width: 
+                    35rem)">
+                    <img src="images/penthouse-suite300.webp" alt="Penthouse Suite Image">
+                </picture>
             </div>
             <div class="contactTemple">
                 <h1>Contact The Temple Inn & Suites</h1>
