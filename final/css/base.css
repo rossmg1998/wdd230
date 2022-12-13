@@ -190,16 +190,6 @@ main div {
     object-fit: cover;
 }
 
-.summary p, 
-.services ul li, 
-.accommodations ul li, 
-.foodservice ul li, 
-.setup ul li, 
-.foodservice p, 
-.setup p {
-    color: white;
-}
-
 .services ul li, 
 .accommodations ul li, 
 .foodservice ul li, 
@@ -370,13 +360,10 @@ main div {
     text-align: left;
 }
 
-.hotelReserved section, 
-.contactSent section {
-    color: white;
-}
-
 form fieldset {
-    margin: 32px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border: 2px solid #770737;
     border-radius: 16px;
     padding: 8px 24px 2rem;
