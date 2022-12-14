@@ -340,7 +340,8 @@ main div {
 .suites h2, 
 .contactTemple h1, 
 .hotelReserved section, 
-.contactSent section {
+.contactSent section,
+.suites p {
     text-align: center;
 }
 
@@ -354,6 +355,12 @@ main div {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.suites p {
+    padding-top: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .contactTemple h3 {
